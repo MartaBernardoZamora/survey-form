@@ -7,7 +7,6 @@ const getData = (e) => {
         //data.type=="email" && data.value && console.log(`${data.id}: ${data.value}`);
         //data.type=="select-one" && data.value && console.log(`${data.id}: ${data.value}`);
         //data.type=="radio" && data.checked && console.log(`${data.name}: ${data.value}`);
-        
         data.type=="checkbox" && console.log(e);
         data.type=="checkbox" && data.checked && console.log(`${data.name}: ${data.value}`);
         //const type=data.name ? data.name : data.id;
