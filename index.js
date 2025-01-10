@@ -13,7 +13,6 @@ const getData = (e) => {
         //data.value && console.log(`${type}: ${data.value}`);
     })
 }
-git 
 document.querySelector('form').addEventListener('submit', (e)=>{
     e.preventDefault();
     getData(e);

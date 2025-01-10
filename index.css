@@ -1,0 +1,54 @@
+html{
+    font-size: 16px;
+}
+body{
+    background-image: radial-gradient(#128a52 0.2px, #05c46b 0.2px);
+    background-size: 4px 4px;
+    font-family: verdana;
+    color:#000000fd;
+    text-align: center;
+}
+form{
+    background-color: #fffffff6;
+    color:#303030fd;
+    margin: auto;
+    max-width: 50%;
+    padding: 2%;
+    box-shadow: 2px 5px 8px #0000007c;
+}
+.question{
+    text-align: left;
+    margin-bottom: 3%;
+}
+.question label, 
+legend{
+    display: block;
+    margin-bottom: 1%;
+    width: auto;
+}
+.question input,
+.question select,
+.question textarea{
+    border: 1px solid #919191;
+    margin: 0 0.5%;
+    padding: 2%;
+    width: 95%;
+    font-family: inherit;
+    font-size: .7rem;
+}
+fieldset{
+    border: none;
+    padding: 1% 0;
+}
+.question fieldset div *{
+    width: auto;
+    display:inline-block;
+}
+button {
+    background-image: radial-gradient(#128a52 0.2px, #05c46b 0.2px);
+    background-size: 4px 4px;
+    border: 1px solid #777;
+    width: 100%;
+    font-size: 1.2rem;
+    margin:4% 0;
+}
