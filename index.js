@@ -1,16 +1,9 @@
+const setConsole = (name, value) => console.log(`${name}: ${value}`);
 const getData = (e) => {
-    const datas=[...e.target]
-
+    const datas=[...e.target];
     datas.map(data=>{
-        //console.log(data.type);
-        //data.type=="text" && data.value && console.log(`${data.id}: ${data.value}`);
-        //data.type=="email" && data.value && console.log(`${data.id}: ${data.value}`);
-        //data.type=="select-one" && data.value && console.log(`${data.id}: ${data.value}`);
-        //data.type=="radio" && data.checked && console.log(`${data.name}: ${data.value}`);
-        data.type=="checkbox" && console.log(e);
-        data.type=="checkbox" && data.checked && console.log(`${data.name}: ${data.value}`);
-        //const type=data.name ? data.name : data.id;
-        //data.value && console.log(`${type}: ${data.value}`);
+        ["text", "email", "select-one", "textarea"].includes(data.type) && data.value && setConsole(data.id || data.name, data.value);
+        data.checked && setConsole(data.name, data.value);        
     })
 }
 document.querySelector('form').addEventListener('submit', (e)=>{
