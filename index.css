@@ -20,7 +20,7 @@ form{
     margin-bottom: 3%;
 }
 .question label, 
-p{
+legend{
     display: block;
     margin-bottom: 1%;
     width: auto;
@@ -30,9 +30,10 @@ p{
 .question textarea{
     border: 1px solid #919191;
     margin: 0 0.5%;
-    padding: 1%;
+    padding: 2%;
     width: 95%;
-    font-size: .8rem;
+    font-family: inherit;
+    font-size: .7rem;
 }
 fieldset{
     border: none;
