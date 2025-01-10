@@ -1,40 +1,45 @@
-body {
-    background-color: #05c46b;
-    font-family: Verdana;
+html{
+    font-size: 14px;
+}
+body{
+    background-image: radial-gradient(#128a52 0.2px, #05c46b 0.2px);
+    background-size: 4px 4px;
+    font-family: sans-serif;
+    color:rgb(70, 70, 70);
     text-align: center;
 }
-form {
-    background-color: #fff;
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 30px 20px;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+form{
+    background-color: #fffffff6;
+    margin: auto;
+    max-width: 50%;
+    padding: 2%;
+    box-shadow: 2px 5px 8px #0000007c;
 }
-.form-control {
+.question{
     text-align: left;
-    margin-bottom: 25px;
+    margin-bottom: 5%;
 }
-.form-control label {
+.question label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
+    width: auto;
 }
-.form-control input,
-.form-control select,
-.form-control textarea {
-    border: 1px solid #777;
-    border-radius: 2px;
-    font-family: inherit;
-    padding: 10px;
-    display: block;
+.question input,
+.question select,
+.question textarea{
+    border: 1px solid #919191;
+    margin: 0 0.5%;
+    padding: 1%;
     width: 95%;
 }
-.form-control input[type="radio"],
-.form-control input[type="checkbox"] {
+.question input[type="radio"],
+.question input[type="checkbox"] {
     display: inline-block;
     width: auto;
 }
 button {
-    background-color: #05c46b;
+    background-image: radial-gradient(#128a52 0.2px, #05c46b 0.2px);
+    background-size: 4px 4px;
     border: 1px solid #777;
     border-radius: 2px;
     font-family: inherit;
