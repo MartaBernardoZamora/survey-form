@@ -17,9 +17,10 @@ form{
 }
 .question{
     text-align: left;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
-.question label {
+.question label, 
+p{
     display: block;
     margin-bottom: 1%;
     width: auto;
@@ -31,21 +32,24 @@ form{
     margin: 0 0.5%;
     padding: 1%;
     width: 95%;
+    font-size: .8rem;
 }
-.question input[type="radio"],
-.question input[type="checkbox"] {
-    display: inline-block;
+fieldset{
+    border: none;
+    padding: 1% 0;
+}
+.question fieldset div *{
     width: auto;
+    display:inline-block;
 }
 button {
     background-image: radial-gradient(#128a52 0.2px, #05c46b 0.2px);
     background-size: 4px 4px;
     border: 1px solid #777;
-    border-radius: 2px;
-    font-family: inherit;
+    /*border-radius: 2px;
     font-size: 21px;
     display: block;
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;*/
 }
